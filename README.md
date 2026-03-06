@@ -47,7 +47,7 @@ ai_model_eval_platform/
 ### 1. Clone and enter the project
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Om-Suman/AI-Model-Evaluation-Platform>
 cd ai_model_eval_platform
 ```
 
@@ -85,11 +85,7 @@ FLUSH PRIVILEGES;
 > The application will auto-create the `ai_eval_platform` database and all
 > tables on first startup — you do **not** need to run any migration scripts.
 
-### 5. Configure environment variables
 
-```bash
-cp .env.example .env
-```
 
 Edit `.env` and fill in:
 
